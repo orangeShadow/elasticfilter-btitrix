@@ -1,0 +1,24 @@
+<?php
+declare(strict_types=1);
+
+
+namespace OrangeShadow\ElasticSearch;
+
+
+class BitrixFieldTypeEnum
+{
+    const OFFER = "OFFER";
+    const ELEMENT_FIELD = "ELEMENT_FIELD";
+    const SECTION_FIELD = "SECTION_FIELD";
+    const FILE_FIELD = "FILE_FIELD";
+    const SIMPLE_PROPERTY = "SIMPLE_PROPERTY";
+    const LINKED_PROPERTY = "LINKED_PROPERTY";
+    const ENUM_PROPERTY = "ENUM_PROPERTY";
+    const HL_PROPERTY = "HL_PROPERTY";
+    const CATEGORY_PROPERTY = "CATEGORY_PROPERTY";
+    const PROPERTY_VALUE = "PROPERTY_VALUE";
+    const NESTED_PROPERTY_VALUE = "NESTED_PROPERTY_VALUE";
+    const NESTED_PROPERTY_FIELD = "NESTED_PROPERTY_FILED";
+    const NESTED_PROPERTY_FILE = "NESTED_PROPERTY_FILE";
+    const ANONYMOUS_FUNCTION = "ANONYMOUS_FUNCTION";
+}

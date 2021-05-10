@@ -1,0 +1,35 @@
+{
+  "name": "orangeshadow/elasitcfilter-bitrix",
+  "description": "Package for bitrix, to create facets filters.",
+  "keywords": [
+    "bitrix",
+    "elasticsearch",
+    "filtering",
+    "facets"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Alexeev",
+      "email": "alexeev.sker@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1|^8.0",
+    "elasticsearch/elasticsearch": "^7.0",
+    "ongr/elasticsearch-dsl": "^7.2",
+    "tightenco/collect": "^8.0",
+    "opis/closure": "^3.6"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "OrangeShadow\\ElasticFilter\\": "src/"
+    }
+  },
+  "extra": {
+  },
+  "minimum-stability": "dev"
+}
