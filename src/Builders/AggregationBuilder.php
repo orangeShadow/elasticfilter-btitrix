@@ -151,7 +151,7 @@ class AggregationBuilder
             foreach ($this->prepareAggregateType($item, $sumKey) as $agg) {
 //                TODO:: Понижение подсчета кол-ва
 //                if () {
-//                    //$agg->addAggregation(new ReverseNestedAggregation('noone_stores4filter_value'));
+//                    //$agg->addAggregation(new ReverseNestedAggregation('{field}'));
 //                }
                 $subAggs->addAggregation($agg);
             }
